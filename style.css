@@ -1,0 +1,152 @@
+body{
+    /*background-color: #0e0f22;*/
+}
+
+.content{
+    padding-top:0;
+}
+
+.content .markdown-section{
+    margin: 0 0 0 25px;
+    max-width: 950px;
+}
+
+.sidebar{
+    /*background: rgba(0, 0, 0, 0.2);*/
+    /*background: -moz-linear-gradient(top, rgb(7, 19, 47) 0%, rgb(47, 19, 64) 100%); !* FF3.6-15 *!*/
+    /*background: -webkit-linear-gradient(top, rgb(7, 19, 47) 0%,rgb(47, 19, 64) 100%); !* Chrome10-25,Safari5.1-6 *!*/
+    /*background: linear-gradient(to bottom, rgb(7, 19, 47) 0%,rgb(47, 19, 64) 100%); !* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ *!*/
+
+    /*border-right: 1px solid rgba(255, 255, 255, 0.1);*/
+    /*background-color: rgba(0,0,0,0.2);*/
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+    min-width: 260px;
+}
+
+.sidebar-toggle{
+    background-color: transparent;
+}
+
+.sidebar>h1 {
+    color: #000;
+    font-weight: bold;
+}
+
+.sidebar li {
+    margin: 6px 0 6px 15px;
+}
+
+.sidebar ul li a {
+    color:#000;
+    opacity: 0.8;
+}
+
+.sidebar ul li a:hover {
+    opacity: 1;
+    text-decoration: none;
+}
+
+.sidebar ul li.active>a {
+    color: #ff0036;
+    font-weight: 600;
+    border-right: 5px solid #ff0036;
+}
+
+.anchor {
+    opacity: 0.8;
+}
+
+.anchor:hover {
+    text-decoration: none;
+    opacity:1;
+}
+
+.anchor span {
+    color: #000;
+}
+
+.github-corner svg {
+    display: none;
+}
+
+.progress{
+    background-color:#ff0036;
+}
+
+/*.markdown-section pre {*/
+    /*background-color: rgba(0,0,0,0.5);*/
+    /*border:1px solid rgba(255,255,255,0.2);*/
+    /*font-family: Roboto Mono,Monaco,courier,monospace;*/
+/*}*/
+
+/*.markdown-section code {*/
+    /*background-color: rgba(0,0,0,0.5);*/
+    /*font-family: Roboto Mono,Monaco,courier,monospace;*/
+/*}*/
+
+/*.markdown-section pre>code{*/
+    /*border:0;*/
+    /*background-color: transparent;*/
+    /*color: #17a0d2;*/
+/*}*/
+/*.markdown-section tr:nth-child(2n) {*/
+    /*background-color: transparent;*/
+/*}*/
+/*.markdown-section td{*/
+    /*text-align: left;*/
+/*}*/
+.markdown-section td, .markdown-section th{
+    padding: 20px 15px;
+}
+
+.markdown-section th{
+    background-color: rgba(0, 0, 0, 0.06);
+    text-align: left;
+}
+
+.markdown-section tr:nth-child(2n) {
+    background-color: rgba(0, 0, 0, 0.01) ;
+}
+
+.docsify-copy-code-button, .docsify-copy-code-button::after {
+    background-color: rgba(0, 0, 0, 0.1) !important;
+    color: #000 !important;
+    bottom: 15px;
+    top: initial !important;
+    transition: none !important;
+}
+
+.docsify-copy-code-button:hover {
+    color:#ff0036 !important;
+}
+
+.sidebar-toggle span{
+    background: #000;
+}
+
+::-webkit-scrollbar-button {
+     display: none;
+     height: 13px;
+     border-radius: 0px;
+     background-color: #AAA;
+ }
+::-webkit-scrollbar-button:hover {
+     background-color: #AAA;
+ }
+::-webkit-scrollbar-thumb {
+     background-color: #666;
+ }
+::-webkit-scrollbar-thumb:hover {
+     background-color: #aaa;
+ }
+::-webkit-scrollbar-track {
+ //background-color: #111;
+ }
+::-webkit-scrollbar-track:hover {
+     background-color: rgba(255,255,255,0.1);
+ }
+::-webkit-scrollbar {
+     width: 8px;
+     cursor: pointer;
+    background: rgba(0,0,0,0.05);
+ }
