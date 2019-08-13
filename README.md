@@ -111,3 +111,29 @@ Once the Farmer connects to Template Farm, it will print "=========== FARMER IS 
 
 At this point you are ready to star using Template Farm. Click the "Home" button in the header and you should see your watch folder in the navigation screen.
 Next you'll need to create some After Effects projects that will be used as templates by Template Farm.
+
+# Unique Project Settings
+When an After Effects project is saved in the watch folder (or any of the sub folder in the watch folder), the Farmer will generate a side-car file with the same name as the After Effects project and a .tfp extension. These files contain the information needed
+by Template Farm to generate the online Template. The .tfp file also contains individual project settings that will allow you to setup properties that won't be accessible online and override the general
+properties that were setup in the After Effect section of the Farmer. You can edit the .tfp files by simply double clicking them. This will bring up the local settings editor which is installed automatically
+when the Farmer is installed.
+> If the .ftp files association is not registered you can always open the local settings editor manually by running "LocalSettingsEditor.exe" from the Farmer installation folder
+(normally located in C:\Program Files\TwiztedDesign\FARMER)
+
+## Render output location
+By default, when users will render new content in Template Farm, the final render file will be rendered in the same folder as the After Effects project. Usually this is not the desired behavior.
+Ideally the After Effects projects should be located in a folder to which the artists will have access (the watch folder), while the final rendered files should land in a location that is accessible for producers
+and other members of the team. This location can be anywhere in your local network, but it will not be exposed online for security reasons (Farmer doesn't expose you local storage).
+
+When you open a .tpf file, you can change the output location for the final render. In the "Settings" tab of the local settings editor, under "Output Settings", check the "Save to" checkbox.
+Click the browse button and select the folder in to would like the final render to be saved. From now on, each render that will be generated from the corresponding After Effects project will be rendered to the
+folder you have selected and not next to the After Effects project.
+
+> This setting can work in combination with the "Custom Naming" settings that allow you to generate the name of the final rendered file
+dynamically based on different properties. You can define the "Custom Naming" settings in the project in Template Farm.
+
+## Override After Effects settings
+During the initial setup of the Farmer we configure the Render Settings and the Output Modules the After Effects will use when rendering and previewing content. These settings are global and will be used
+for all projects by default. The local settings editor allows you to override those global settings and render each project with unique render settings and output modules.
+
+In the "Plugins Override" tab, locate the "AeFarmerPlugin"
