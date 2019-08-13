@@ -136,4 +136,6 @@ dynamically based on different properties. You can define the "Custom Naming" se
 During the initial setup of the Farmer we configure the Render Settings and the Output Modules the After Effects will use when rendering and previewing content. These settings are global and will be used
 for all projects by default. The local settings editor allows you to override those global settings and render each project with unique render settings and output modules.
 
-In the "Plugins Override" tab, locate the "AeFarmerPlugin"
+In the "Plugins Override" tab, select the "AeFarmerPlugin". Check the properties you'd like to override and indicate the render settings or the output module you like to use for this specific project.
+The local settings will override the global settings that were set in the Farmer. You can override all or just some of the settings combining the local and the global settings together. For example, you can still use
+"Best Settings" for the Render Settings that are set by default in the Farmer (globally) and use a different Output Mobile to render the video with a different codec.

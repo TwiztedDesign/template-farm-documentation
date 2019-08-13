@@ -35,13 +35,10 @@ body{
     padding-left: 15px;
 }
 
-.sidebar li {
-    margin: 6px 0 6px 15px;
-}
-
 .sidebar ul li a {
     color:#000;
     opacity: 0.8;
+    line-height: 25px;
 }
 
 .sidebar ul li a:hover {
