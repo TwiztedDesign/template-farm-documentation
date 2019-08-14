@@ -1,9 +1,7 @@
-# Settings
+# Project Settings
 The settings are unique per project and per each template in that project. You'll find the settings in the "More" drop down (next to the **Preview** and the **Produce** buttons).
 Click **Settings** and a new popup will show.
 > The **Settings** window is only available to Admins and Managers, not to Editors. The Editor should not worry about the settings of the project and focus on the content of the template.
-
-# Project Settings
 The project settings allows you to control properties on the project level. These settings will take effect when any template in that specific project will be produced.
 
 ## Create a project folder

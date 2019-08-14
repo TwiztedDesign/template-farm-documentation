@@ -9,12 +9,12 @@ The installer is a straight forward process, just follow the instructions of the
 
 ## Setup the watch folder
 Once the Farmer is installed, run it. If you are running the Farmer for the first time on this your PC, you will be asked to choose a shared folder.
-The watch folder (AKA Root folder), is a folder in your local or network storage that will be monitored by the Farmer. Any AE project that is saved into the watch folder will show up
+The watch folder, is a folder in your local or network storage that will be monitored by the Farmer. Any AE project that is saved into the watch folder will show up
 online as a template in a matter of seconds. If you never ran the Farmer on the PC you installed it on, it will ask you to choose a watch folder automatically. If you need to modify or change the
 watch folder location, click the "Settings" button and go to the "Watch Folder" tab.
 
 ### Picking the watch folder location
-First, you'll need to pick the location of your watch folder. Click the "Browse" button next the "Watch Folder" property and select the folder you want the Farmer to monitor.
+First, you'll need to pick the location of your watch folder. Click the "Browse" button next the **Path** property and select the folder you want the Farmer to monitor.
 
 > Always pick the topmost folder in your folders structure. The Farmer will monitor all sub folders within the folder you choose.
 > Make sure that the watch folder has all the read / write permissions.
