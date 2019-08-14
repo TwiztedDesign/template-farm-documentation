@@ -21,7 +21,8 @@ body{
     /*background-color: rgba(0,0,0,0.2);*/
     border-right: 1px solid rgba(0, 0, 0, 0.1);
     min-width: 260px;
-    background-color: #f5f5f5;
+    padding: 10px 0 0;
+    /*background-color: #f5f5f5;*/
 }
 
 .sidebar-toggle{
@@ -71,6 +72,10 @@ body{
 
 .progress{
     background-color:#ff0036;
+}
+
+.markdown-section {
+    padding: 10px 15px 40px;
 }
 
 .markdown-section blockquote{
