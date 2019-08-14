@@ -78,6 +78,11 @@ body{
     color:#000;
 }
 
+.markdown-section code{
+    color:#000;
+    font-weight: bold;
+}
+
 .markdown-section a{
     color:  #ff0036;
 }

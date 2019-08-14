@@ -6,9 +6,9 @@ monitors a folder in your local or network storage (just like Dropbox or Google 
 Any AE project that will be saved into the watch folder that is monitored by the Farmer will show up in Template Farm as a template in a matter of seconds.
 Start by downloading the Farmer [here](https://www.templatefarm.io/download). After the download is done, start the installer.
 The installer is a straight forward process, just follow the instructions of the installation wizard.
-Once the Farmer is installed, run it. If you are running the Farmer for the first time on this your PC, you will be asked to choose a shared folder.
 
 ## Setup the watch folder
+Once the Farmer is installed, run it. If you are running the Farmer for the first time on this your PC, you will be asked to choose a shared folder.
 The watch folder (AKA Root folder), is a folder in your local or network storage that will be monitored by the Farmer. Any AE project that is saved into the watch folder will show up
 online as a template in a matter of seconds. If you never ran the Farmer on the PC you installed it on, it will ask you to choose a watch folder automatically. If you need to modify or change the
 watch folder location, click the "Settings" button and go to the "Watch Folder" tab.
