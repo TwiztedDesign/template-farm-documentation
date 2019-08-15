@@ -139,3 +139,33 @@ for all projects by default. The local settings editor allows you to override th
 In the "Plugins Override" tab, select the "AeFarmerPlugin". Check the properties you'd like to override and indicate the render settings or the output module you like to use for this specific project.
 The local settings will override the global settings that were set in the Farmer. You can override all or just some of the settings combining the local and the global settings together. For example, you can still use
 "Best Settings" for the Render Settings that are set by default in the Farmer (globally) and use a different Output Mobile to render the video with a different codec.
+
+# Logos & Thumbnails
+When an After Effects project is save in the watch folder, the folder containing the project and the project itself will show up in Template Farm with default thumbnails. You change the thumbnails to give your editors
+a better experience and a clearer understanding of what what each folder contains and what each project and template should look like.
+You can also change the logo at the top left (in the header) to create a more brand related experience (only for enterprise accounts).
+
+## Folder Logo
+To change the default Template Farm logo on the top left of the screen, add a PNG file named **_logo.png** to your folder.
+When a user navigates into any folder that contains a PNG file called **_logo.png** the logo will be replaced with the content of the file.
+
+## Folder Thumbnails
+In order to change the default thumbnail of a folder, add a JPG file named thumb.jpg to your folder.
+Users will see this thumbnail before they navigate into the folder.
+> For best in presentation and speed keep the thumbnail files an a 16X9 aspect, and around 480x270 pixels in size
+
+## Project Thumbnails
+In order to change the default thumbnail of a project, add a JPG file named exactly as your project.
+For example: if your After Effects project file name is **Titles.aep**, add a JPG file called **Title.jpg** next to it.
+The users will see this thumbnail before they open the project.
+> For best in presentation and speed keep the thumbnail files an a 16X9 aspect, and around 480x270 pixels in size
+
+## Template Thumbnails
+In order to change the default thumbnails of templates within a project, add a JPG file named as your project name followed by an underscore and the template name.
+For example: If your project file name is **Titles.aep** and the template name is **LowerThird**, add a JPG file named **Title_LowerThird.jpg** next to it.
+The users will see this thumbnail when they open the project.
+
+> The thumbnails of the templates are also used for provide the initial preview that users will see before the preview content on their own.
+You might want to have a bigger resolution for those files sine they are presented as a preview. In order to improve performance and speed, try to lower the JPG files quality to as low as it would be acceptable by you.
+
+

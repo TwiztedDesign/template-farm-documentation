@@ -91,28 +91,15 @@ body{
 .markdown-section a{
     color:  #ff0036;
 }
-/*.markdown-section pre {*/
-    /*background-color: rgba(0,0,0,0.5);*/
-    /*border:1px solid rgba(255,255,255,0.2);*/
-    /*font-family: Roboto Mono,Monaco,courier,monospace;*/
-/*}*/
 
-/*.markdown-section code {*/
-    /*background-color: rgba(0,0,0,0.5);*/
-    /*font-family: Roboto Mono,Monaco,courier,monospace;*/
-/*}*/
+.markdown-section h2 {
+    font-size: 1.55rem;
+}
 
-/*.markdown-section pre>code{*/
-    /*border:0;*/
-    /*background-color: transparent;*/
-    /*color: #17a0d2;*/
-/*}*/
-/*.markdown-section tr:nth-child(2n) {*/
-    /*background-color: transparent;*/
-/*}*/
-/*.markdown-section td{*/
-    /*text-align: left;*/
-/*}*/
+.markdown-section h3 {
+    font-size: 1.3rem;
+}
+
 .markdown-section td, .markdown-section th{
     padding: 20px 15px;
 }
@@ -126,10 +113,16 @@ body{
     background-color: rgba(0, 0, 0, 0.01) ;
 }
 
+.docsify-copy-code-button{
+    font-size: 12px !important;
+    border: 1px solid #ff0036 !important;
+    right: 10px !important;
+    bottom: 10px !important;
+}
+
 .docsify-copy-code-button, .docsify-copy-code-button::after {
-    background-color: rgba(0, 0, 0, 0.1) !important;
+    background-color: rgba(0, 0, 0, 0) !important;
     color: #000 !important;
-    bottom: 15px;
     top: initial !important;
     transition: none !important;
 }

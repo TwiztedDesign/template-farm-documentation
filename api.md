@@ -14,17 +14,22 @@ To authenticate your request, append your API key in one of the following method
 ## Getting the project
 Once you have the API key, you'll need to get the project key. The project key is a unique identifier for every project in your account.
 Open the project you want to interact with in Template Farm. You should see the project key as a part of its URL. It should like this:
-`https://www.templatefarm.io/project/llTt86vbyVcQfoLRtNJ1kQLZMwtVIKR1s49k8-JTyV1hSjjtfSM7nBYSaNo3DBaSiWYPD-MnwDVToPPywr26GkD_1ETEsAPSaxCEHx099RCDgJTTQyj9vRJNw4Jt9xH82yfB4BlnrgHw0Rhxl1U2gqGH60U=`
+`
+https://www.templatefarm.io/project/llTt86vbyVcQfoLRtNJ1kQLZMwtVIKR1s49k8-JTyV1hSjjtfSM7nBYSaNo3DBaSiWYPD-MnwDVToPPywr26GkD_1ETEsAPSaxCEHx099RCDgJTTQyj9vRJNw4Jt9xH82yfB4BlnrgHw0Rhxl1U2gqGH60U=
+`
 
 The part after the `project/` is your project key.
 
 ## Modifying content
 Once you get the project key, you can make calls to the API to render new content from that project via the API.
 Make a POST request to the following url and replace {PROJECT KEY} with your project key:
-`POST https://www.templatefarm.io/api/project/{PROJECT KEY}/produce`
+```POST
+https://www.templatefarm.io/api/project/{PROJECT KEY}/produce
+```
 
 You can pass the values you need to change in the project via an JSON object in the request body, like this:
-`{
+```json
+{
      "templates" : [
          {
              "name": "Title",
@@ -36,4 +41,5 @@ You can pass the values you need to change in the project via an JSON object in 
              ]
          }
      ]
- }`
+ }
+ ```

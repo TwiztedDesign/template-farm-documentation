@@ -1,4 +1,7 @@
-# Creating Templates
+# Creating Templates in After Effects
+If you are running the Farmer for the first time, you need to setup the Farmer to work with your version of After Effects.
+You learn how to do that [here](http://videoflow.io/documentation/farmer?id=setup-after-effects).
+
 Templates are created directly inside of After Effects project by starting the name of the compositions and layers that you want to include in your template with a hashtag (#).
 If you start the name of a composition with a # it will become a template, if you start the name of a text layer with a # it will become a text field, and so on.
 Refer to the documentation below to get the full list of the tags that you can use.
