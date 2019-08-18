@@ -1,5 +1,4 @@
 # Setting up the Farmer
-Every account in Template Farm is a part of a Farm. Each Farm is a collection of users and Farmers.
 To get started with Template Farm you'll need at least one instance of the Farmer installed on your PC (Windows only). The Farmer is a light-weight app that
 monitors a folder in your local or network storage (just like Dropbox or Google Drive) and controls AE instances.
 
