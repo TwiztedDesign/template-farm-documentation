@@ -1,11 +1,11 @@
 # Project Settings
-The settings are unique per project and per each template in that project. You'll find the settings in the "More" drop down (next to the **Preview** and the **Produce** buttons).
+The settings are unique per project and per each template in that project. You'll find the settings in the **More** drop down (next to the **Preview** and the **Produce** buttons).
 Click **Settings** and a new popup will show.
 > The **Settings** window is only available to Admins and Managers, not to Editors. The Editor should not worry about the settings of the project and focus on the content of the template.
 The project settings allows you to control properties on the project level. These settings will take effect when any template in that specific project will be produced.
 
 ## Create a project folder
-Creates a project folder and places the final rendered file inside that folder. Unless indicated otherwise by the custom naming format or renamed be the user, the name of the folder will be the name of the project.
+Creates a project folder and places the final rendered file inside that folder. Unless indicated otherwise by the custom naming format or renamed by the user, the name of the folder will be the name of the project.
 By default, the folder will be created in the same location as the location the After Effects project. You can change that via the local settings editor and redirect the output to another location (this settings
 is not available online due to security reasons). Please refer to the [Unique project settings](/farmer?id=unique-project-settings) in the Farmer documentation.
 
@@ -19,8 +19,8 @@ The variables that you can use are available as small buttons under the custom n
 For example, lets say you'd like to have your files to be rendered into a folder that has today's date. You custom naming format will look like this:`[[MM_dd]]`.
 Basically, this tells the Farmer that when the user will produce content, it should create a folder with a Month, Underscore and Day, so the final folder name will be `08_29` (August 29th).
 
-You can modify the format of the date and the time do have it displayed in many different ways. Refer to [this article](https://docs.microsoft.com/en-us/dotnet/standard/base-types/standard-date-and-time-format-strings)
-about the different date and time formats that you can use. Remember to keep the double square brackets around the format.
+You can modify the format of the date and the time to have it displayed in many different ways. Refer to [this article](https://docs.microsoft.com/en-us/dotnet/standard/base-types/standard-date-and-time-format-strings)
+about the different date and time formats you can use. Remember to keep the double square brackets around the format.
 
 Another example, lets say that you'd like the rendered content land in a folder with the name of the user that is currently using Template Farm. The custom naming format will look like this:
 `||FirstName||_||LastNameInit||`. This custom naming format take the first name of the logged user adds an underscore and their last name initials.
@@ -40,8 +40,8 @@ in and brackets or pipes.
 | \|\|FirstNameInit\|\| |The first name initial of the currently logged in user|
 | \|\|LastName\|\| |The last name of the currently logged in user|
 | \|\|LastNameInit\|\| |The last name initial of the currently logged in user|
-| [[hh_mm]] |The specific time in hours and minutes in which the user produces the content (clicks the "Produce" button). The format of the timestamp can be customized according to this [article](https://docs.microsoft.com/en-us/dotnet/standard/base-types/standard-timespan-format-strings). Remember to keep the double square brackets around the format string.|
-| [[MM_dd]] |The specific date in month and day in which the user produces the content (clicks the "Produce" button). The format can be customized according to this [article](https://docs.microsoft.com/en-us/dotnet/standard/base-types/standard-date-and-time-format-strings). Remember to keep the double square brackets around the format string.|
+| [[hh_mm]] |The specific time in hours and minutes in which the user produces the content (clicks the **Produce** button). The format of the timestamp can be customized according to this [article](https://docs.microsoft.com/en-us/dotnet/standard/base-types/standard-timespan-format-strings). Remember to keep the double square brackets around the format string.|
+| [[MM_dd]] |The specific date in month and day in which the user produces the content (clicks the **Produce** button). The format can be customized according to this [article](https://docs.microsoft.com/en-us/dotnet/standard/base-types/standard-date-and-time-format-strings). Remember to keep the double square brackets around the format string.|
 
 # Template Settings
 The template settings allow you to control the properties of each template in the project. These settings will take effect only when the relevant template is produced. Under the template settings, each template will have its own tab, with its own settings.
@@ -78,6 +78,6 @@ your custom naming format it will look like this `{{Title}}_{{Subtitle}}`. When 
 | \|\|FirstNameInit\|\| |The first name initial of the currently logged in user|
 | \|\|LastName\|\| |The last name of the currently logged in user|
 | \|\|LastNameInit\|\| |The last name initial of the currently logged in user|
-| [[hh_mm]] |The specific time in hours and minutes in which the user produces the content (clicks the "Produce" button). The format of the timestamp can be customized according to this [article](https://docs.microsoft.com/en-us/dotnet/standard/base-types/standard-timespan-format-strings). Remember to keep the double square brackets around the format string.|
-| [[MM_dd]] |The specific date in month and day in which the user produces the content (clicks the "Produce" button). The format can be customized according to this [article](https://docs.microsoft.com/en-us/dotnet/standard/base-types/standard-date-and-time-format-strings). Remember to keep the double square brackets around the format string.|
+| [[hh_mm]] |The specific time in hours and minutes in which the user produces the content (clicks the **Produce** button). The format of the timestamp can be customized according to this [article](https://docs.microsoft.com/en-us/dotnet/standard/base-types/standard-timespan-format-strings). Remember to keep the double square brackets around the format string.|
+| [[MM_dd]] |The specific date in month and day in which the user produces the content (clicks the **Produce** button). The format can be customized according to this [article](https://docs.microsoft.com/en-us/dotnet/standard/base-types/standard-date-and-time-format-strings). Remember to keep the double square brackets around the format string.|
 | {{TEMPLATE TEXT FIELDS}} |The field value to be used as a part of the template name. The amount of these properties varies based on the available fields per each template|

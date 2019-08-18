@@ -36,11 +36,11 @@ This will allow you to assign images to the field either via an upload or by pas
 ```
 
 ## Expression Controls
-Starting the name of a expression control that is applied to any layer within the composition with # will display the control in the template.
+Starting the name of an expression control that is applied to any layer within the composition with # will display the control in the template.
 A slider control will be shown as a slider, and a color picker as a color picker.
 Using the expression controls allows you to control any property within the composition,
 even if it is not a layer but a sub-property of a layer.
-For example: you can control the position of a layer by connection its position to the slider by an expression.
+For example: you can control the position of a layer by connecting its position to the slider by an expression.
 ```Syntax
 #[Property Name]
 ```
@@ -49,8 +49,8 @@ For example: you can control the position of a layer by connection its position 
 ```
 
 # Advanced Tags
-You can a more advanced functionality to your templates by using the advanced tags. Advanced tags are used to ensure that your templates perform in the best way possible,
-by protecting fields from not being populated or have to many character, previewing multiple frames to ensure maximum quality and much more.
+You can add a more advanced functionality to your templates by using the advanced tags. Advanced tags are used to ensure that your templates perform in the best way possible,
+by protecting fields from not being populated or having too many characters, previewing multiple frames to ensure maximum quality, and many more.
 
 ## Previews
 Setting frame 50 and 100 (as in the example) of the composition as the frames that will be rendered when the user clicks the "Preview" button in Template Farm.
@@ -85,7 +85,7 @@ But when you want to use the composition only as template but not actually rende
 #MyTemplate#render(false)
 ```
 Doing so, will show the composition as a template in Template Farm, but will not render the composition when the user clicks **Produce**.
-For example you have have a composition that is set to **render(false)** nested in a hidden composition.
+For example you have a composition that is set to **render(false)** nested in a hidden composition.
 This way the composition will show up in Template Farm, will be modified but will not be rendered as an individual composition,
 just as a content of another composition.
 
@@ -124,7 +124,7 @@ This is useful if you want to show multiple layers with the same name.
 You can also use the "nameFrom" tag to assign the name of another template to the current template.
 This command is useful when the template is hidden but you still want to control the name of the hidden template.
 
-For example, if you what the get the name from the template "#MySourceComp" the command should look like this:
+For example, if you want to get the name from the template "#MySourceComp" the command should look like this:
 `#MyTargetComp#nameFrom(MySourceComp)`
 
 > Note that the hashtag is omitted from the source template name.
@@ -164,7 +164,7 @@ If you are looking to create a custom ordered fields and the **order** tag is no
 and will order the fields according to that value.
 > Index value must be a whole, positive number.
 > The "index" tag gets evaluated after the "order" tag and it is possible to use the two tags together.
-For example: You can order the controls by name first and then assign indexes to the controls you want to order manually. In the example below, the second layer will be show first because it has a lower index.
+For example: You can order the controls by name first and then assign indexes to the controls you want to order manually. In the example below, the second layer will be shown first because it has a lower index.
 ```Syntax
 #[Field Name]#index(number)
 ```
@@ -196,7 +196,7 @@ In this case your users will not have the option to choose to crop or not to cro
 # Custom UI Elements
 Every layer in the composition already has a default UI elements associated with it.
 For example a text layer will be displayed as a text field in Template Farm, a footage layer will be displayed as a browse button and a solid layer will be displayed as a color picker dialog.
-By using the **ui** tag you can override the default UI elements associated with each layer. The *ui** tag always starts with the same syntax, but accepts different parameters.
+By using the **ui** tag you can override the default UI elements associated with each layer. The **ui** tag always starts with the same syntax, but accepts different parameters.
 
 ## Text Field
 The layer will be shown as a text field in Template Farm. This is the default setting for any text layer.
@@ -209,7 +209,7 @@ The layer will be shown as a text field in Template Farm. This is the default se
 ```
 
 ## Slider
-The layer will be displayed as a slider in Template farm.
+The layer will be displayed as a slider in Template Farm.
 In the example below, the slider minimum value is 0, maximum value 100 and the user can increase or decrease the value by 1.
 The value of the slider will be applied to the layer value, so if the layer is a text layer, the value of the slider will be shown as plain text.
 > This is useful when working with expression controls where the value is affecting something else in the composition.
@@ -233,7 +233,7 @@ In the example below, the options will be **Red**, **Green** and **Blue**.
 
 You can also pull the contents for the drop down box from a folder in your project. This use a list of all the items in the folder and the selection options on the drop down.
 This is useful if you would like to allow users to pick a specific footage item from a predefined list. Place all the desired footage items in a single folder and point to the folder by name.
-In the example, the drop down list will display all the names of the footage items the are located in the project folder named "Icons".
+In the example, the drop down list will display all the names of the footage items that are located in the project folder named "Icons".
 ```Syntax
 #[Field Name]#ui(optionsFrom,[Project folder name])
 ```
@@ -257,9 +257,9 @@ In the example, the separator will be shown with a title "MySeparator". This is 
 ```
 
 ## Display Width
-Using this tag will set the with of the control in the template (in percentage).
-In the example below, the control for the layer with be set to be 50% of the total with of the controls column.
-This tag allows the users to have multiple controls side by side by setting their width to less then 100% (the default value).
+Using this tag will set the width of the control in the template (in percentage).
+In the example below, the control for the layer with be set to be 50% of the total width of the controls column.
+This tag allows the users to have multiple controls side by side by setting their width to less than 100% (the default value).
 For example, setting the layers to be 33.33% percent wide, will place 3 controls side by side on the same row.
 ```Syntax
 #[Field Name]#displayWidth([width value in percent])
