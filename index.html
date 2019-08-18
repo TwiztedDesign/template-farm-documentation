@@ -18,7 +18,14 @@
   <script>
     window.$docsify = {
         homepage: 'farmer.md'
-    }
+    };
+    window.onload = function(){
+        setTimeout(function(){
+            scrollTo(0,1);
+            scrollTo(0,0);
+        },500);
+
+    };
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
   <script src="//unpkg.com/docsify-copy-code@2"></script>
