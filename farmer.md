@@ -1,4 +1,4 @@
-# Setting up the Farmer
+# Setup a Farmer
 To get started with Template Farm you'll need at least one instance of the Farmer installed on your PC (Windows only). The Farmer is a light-weight app that
 monitors a folder in your local or network storage (just like Dropbox or Google Drive) and controls AE instances.
 
@@ -6,7 +6,7 @@ Any AE project that will be saved into the Watch Folder that is monitored by the
 Start by downloading the Farmer [here](https://www.templatefarm.io/download). After the download is done, start the installer.
 The installer is a straight forward process, just follow the instructions of the installation wizard.
 
-## Setup the Watch Folder
+## Setup a Watch Folder
 Once the Farmer is installed, run it. If you are running the Farmer for the first time on this your PC, you will be asked to choose a shared folder.
 The Watch Folder, is a folder in your local or network storage that will be monitored by the Farmer. Any AE project that is saved into the Watch Folder will show up
 online as a template in a matter of seconds. If you never ran the Farmer on the PC you installed it on, it will ask you to choose a Watch Folder automatically. If you need to modify or change the
