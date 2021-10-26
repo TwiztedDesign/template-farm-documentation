@@ -241,6 +241,17 @@ In the example, the drop down list will display all the names of the footage ite
 #MyTitle#ui(optionsFrom,Icons)
 ```
 
+## Map Files
+Map a local folder and its sub-folder to a dropdown selector. The dropdown will present a file browser where users can choose the file that will replace the footage content of the layer.
+The map ui element will only include media files in the browse dropdown. Such as .jpg .png. .mov etc. This is useful when you work with large video files but do not want to upload them. 
+> This functionality is available ONLY when the video files are accessible from the instance that the Farmer is installed on (for example a local folder or network).
+```Syntax
+#[Field Name]#ui(map,[Path to local folder])
+```
+```Example
+#MyFootage#ui(map,C:\sample footage\videos)
+```
+
 # Layout
 The following tags will allow you to control the way fields are presented and laid out in the template in Template Farm.
 
