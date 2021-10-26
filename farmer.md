@@ -97,6 +97,8 @@ Some things to consider before enabling **Optimized Preview**:
 * A high volume of previews.
 * Are you previewing heavy projects that take a long time to load? If so, the combined time between loading After Effects each time and loading a heavy project each time, might result in a long waiting time for each preview.
 
+### Default Output Folder
+The default output folder is where the final output will be rendered to. If the default output folder is not set, the final output will be rendered in the same folder where the original After Effects file is stored (ie the Watch Folder). This setting can be overriden on a per-project basis and editing the local settings of the .tfp file. More information is available in the Unique Project Settings section.
 
 ## Connecting to Template Farm
 Once you've configured the Watch Folder and the After Effect settings of the Farmer, you can connect the Farmer to your account. In order to do that you'll need to generate a unique key
