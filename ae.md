@@ -242,6 +242,7 @@ In the example, the drop down list will display all the names of the footage ite
 ```
 
 ## Map Files
+> Avilable with Farmer version 1.6.1.5 and up
 Map a local folder and its sub-folder to a dropdown selector. The dropdown will present a file browser where users can choose the file that will replace the footage content of the layer.
 The map ui element will only include media files in the browse dropdown. Such as .jpg .png. .mov etc. This is useful when you work with large video files but do not want to upload them. 
 > This functionality is available ONLY when the video files are accessible from the instance that the Farmer is installed on (for example a local folder or network).
