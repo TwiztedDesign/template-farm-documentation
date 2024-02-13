@@ -1,4 +1,4 @@
-# API API
+# Dynamic Image API
 An API to convert images and manipulate SVGs. You can make a GET request to https://www.templatefarm.io/api/image/**FARM_ID**/YOUR_PATH with the params detailed below. For a GET request pass the params as query params in the request URL.
 
 ## Authentication
