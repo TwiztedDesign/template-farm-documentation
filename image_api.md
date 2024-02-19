@@ -4,7 +4,7 @@ An API to convert images and manipulate SVGs. You can make a GET request to http
 ## Authentication
 For all GET requests the first pram in the request should be the [Farm ID](https://www.templatefarm.io/account/settings/farm).
 ```Example
-https://www.templatefarm.io/api/image/FARM_ID/test.svg?output=jpeg&quality=50&height=200&props=[{"name":"input.settings.tags.snowboard","visible":false}]
+https://www.templatefarm.io/api/image/FARM_ID/test.svg?output=jpeg&quality=50&height=200&props=[{"name":"title","value":"Hello TF"}]
 ```
 
 
