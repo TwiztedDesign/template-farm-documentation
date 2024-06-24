@@ -172,4 +172,3 @@ The users will see this thumbnail when they open the project.
 > The thumbnails of the templates are also used for provide the initial preview that users will see before the preview content on their own.
 You might want to have a bigger resolution for those files sine they are presented as a preview. In order to improve performance and speed, try to lower the JPG files quality to as low as it would be acceptable by you.
 
-
