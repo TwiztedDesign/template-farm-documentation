@@ -1,3 +1,4 @@
+I
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,12 +13,18 @@
 <body>
   <div id="app"></div>
   <script>
-window.$docsify = {
-  homepage: 'farmer.md',
-  search: {
-    paths: 'auto',
-  },
-  plugins: [
+    window.$docsify = {
+      homepage: 'farmer.md',
+        paths: [
+          '/',  
+          '/ae.md',
+          '/api.md',
+          '/farmer.md',
+          '/image_api.md',
+          '/project-settings.md',
+          '/user-management.md'
+        ],
+        plugins: [
     function(hook) {
       hook.doneEach(function() {
         window.parent.postMessage({
