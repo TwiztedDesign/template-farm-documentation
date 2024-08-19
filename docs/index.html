@@ -14,16 +14,19 @@ I
   <div id="app"></div>
   <script>
     window.$docsify = {
-      homepage: 'farmer.md',
-        paths: [
-          '/',  
-          '/ae.md',
-          '/api.md',
-          '/farmer.md',
-          '/image_api.md',
-          '/project-settings.md',
-          '/user-management.md'
-        ],
+    homepage: 'farmer.md',
+    search: {
+    maxAge: 86400000,
+    paths: [
+      '/ae.md',
+      '/api.md',
+      '/farmer.md',
+      '/image_api.md',
+      '/project-settings.md',
+      '/user-management.md'
+    ],
+    depth: 2,
+  },
         plugins: [
     function(hook) {
       hook.doneEach(function() {
