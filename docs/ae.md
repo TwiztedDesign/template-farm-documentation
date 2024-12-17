@@ -283,7 +283,7 @@ For example, setting the layers to be 33.33% percent wide, will place 3 controls
 
 ## Hide Title
 When using the **noTitle** tag, the control will show in the controls list without the title.
-This is useful in combination with the **displayWidth** property, when creating a table where the title is always the same.
+This is useful in combination with the **displayWidth** property, when creating a table where the title is always the same.hello world.
 ```Syntax
 #[Field Name]#noTitle
 ```
