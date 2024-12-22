@@ -24,6 +24,8 @@ Once ready, a preview window will display your image. If you're happy with it:
 
 > If you’re not satisfied with the result, you can always regenerate it. Each time you click the "Generate" button, a new result will appear, replacing the current one.
 
+Discover a curated collection of AI-generated image prompts tailored for Flux.1 AI. This library provides ready-to-use examples designed to help you create high-quality assets efficiently: [Flux AI Online - Free Online Flux 1.1 Pro AI Image Generator](https://fluxproweb.com/flux-prompt-explore/) 
+
 ## Creating Templates with the AI Generator
 
 Templates are created by combining elements such as text, images, and shapes into a cohesive design.
