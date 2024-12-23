@@ -2,11 +2,11 @@
 
 GenAi is designed to streamline your creative process with advanced artificial intelligence capabilities. With the GenAi, you can create images and elements, which can then be seamlessly integrated into your designs. By combining these capabilities, you can create stunning, ready-to-use templates tailored to your needs.
 
-## How to use GenAi
+## How to use GenAI
 
 In the Template Cloud, in the left menu bar, you'll find a "GenAi" tab. Clicking on it will open your prompt area. Remember, the clearer and more descriptive your prompt is, the better the results you’ll get.
 
-## Creating Assets with GenAi
+## Creating Assets with GenAI
 
 1. Select  **"Asset"**
 
@@ -26,7 +26,7 @@ Once ready, a preview window will display your image. If you're happy with it:
 
 Discover a curated collection of GenAi image prompts tailored for Flux.1 AI. This library provides ready-to-use examples designed to help you create high-quality assets efficiently: [Flux AI Online - Free Online Flux 1.1 Pro AI Image Generator](https://fluxproweb.com/flux-prompt-explore/) 
 
-## Creating Templates with GenAi
+## Creating Templates with GenAI
 
 Templates are created by combining elements such as text, images, and shapes into a cohesive design.
 
@@ -71,7 +71,7 @@ Under **Settings > Farm**, you can see the number of credits available for using
 
 > You can always check your credit balance under **Settings > Farm**.
 
-## Where can I use GenAi?
+## Where can I use GenAI?
 
 Currently, GenAi is available within the Cloud Templates and in any platform where the Cloud Templates can be integrated, such as Engage Engine.
 
